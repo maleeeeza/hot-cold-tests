@@ -23,9 +23,5 @@
     "eject": "react-scripts eject"
   },
 
-  "jest": {
-    "setupFiles": [
-      "<rootDir>/src/setupTests.js"
-    ],
-}
+  
 }
