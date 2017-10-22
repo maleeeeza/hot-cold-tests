@@ -1,5 +1,5 @@
 import React from 'react';
-import {shallow, render} from 'enzyme';
+import {shallow, mount, render} from 'enzyme';
 
 import GuessSection from './guess-section';
 
