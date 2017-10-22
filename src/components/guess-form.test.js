@@ -1,5 +1,5 @@
 import React from 'react';
-import {shallow, mount} from 'enzyme';
+import {shallow, mount, render} from 'enzyme';
 
 import GuessForm from './guess-form';
 
@@ -15,7 +15,7 @@ describe('<GuessForm />', () => {
         wrapper.find('input[type="text"]').instance().value = value;
         wrapper.simulate('submit');
         expect(callback).toHaveBeenCalledWith(value.toString());
-        
+
     });
 
     it('Should reset form when submitted', () => {
