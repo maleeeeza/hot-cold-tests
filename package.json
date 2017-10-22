@@ -24,6 +24,6 @@
   },
 
   "jest": {
-        "setupTestFrameworkScriptFile": "<rootDir>/test-setup.js"
+        "setupTestFrameworkScriptFile": "<rootDir>/setuptests.js"
     }
 }
